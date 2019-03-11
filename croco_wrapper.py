@@ -7,6 +7,7 @@ import time
 import numpy as np
 import netCDF4 as netcdf
 import matplotlib.pyplot as plt
+import xarray as xr
 from io_xarray import return_xarray_dataarray, return_xarray_dataset
 
 second2day = 1. /86400.
